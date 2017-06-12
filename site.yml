@@ -1,0 +1,67 @@
+
+#
+# Network Settings
+#
+hostname: sample1.dev
+ip: 192.168.33.10
+
+#
+# WordPress Settings
+#
+version: latest
+lang: ja
+title: sample site
+rewrite_structure: /archives/%post_id%
+
+
+#
+# WordPress User
+#
+admin_user: penguin
+admin_pass: petapeta
+admin_email: vccw@example.com
+
+
+#
+# WordPress Database
+#
+db_prefix: sample
+db_host: localhost
+db_name: wordpress
+db_user: wordpress
+db_pass: wordpress
+
+#
+# WordPress Default Plugins
+# Plugin's slug or url to the plugin's slug.
+#
+plugins: []
+
+#
+# WordPress Default Theme
+# Theme's slug or url to the theme's .zip.
+#
+theme: ''
+
+#
+# WordPress Options
+#
+options:
+  blogdescription: Hello VCCW.
+
+
+#
+# The values of wp-config.php
+#
+force_ssl_admin: false
+wp_debug: true
+savequeries: false
+
+#
+# Addtional PHP code in the wp-config.php
+#
+extra_wp_config: |
+  // Addtional PHP code in the wp-config.php
+  // These lines are inserted by VCCW.
+  // You can place addtional PHP code here!
+
